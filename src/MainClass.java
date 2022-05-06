@@ -1,10 +1,13 @@
 public class MainClass {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
-        System.out.println("Hello World!");
+      int i=0;
+      int [] array=new int [10];
+        for (int j = 0; j < array.length ; j++) {
+            array[j]=j;
 
-        System.out.println(56+67);
+        }
+        for (int k : array) {
+            System.out.println(k);
+        }
     }
 }
